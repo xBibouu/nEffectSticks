@@ -1,0 +1,9 @@
+name: StickEffect
+author: Fenomeno
+api: 5.0.0
+version: 0.1
+main: Ibrahim\SEffect\Main
+
+permissions:
+  stick.command.permission:
+    default: op

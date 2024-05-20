@@ -1,0 +1,36 @@
+#DEFAULT LORE : "\n§r§fDurabilité : §6{durabilite}"
+
+sticks:
+  #NOM A METTRE DANS LE /GIVE (JOUEUR) stick_de_speed
+  stick_de_speed:
+    #NOM DE L'ITEM
+    name: "Stick de rapidité"
+    #DURABILITE
+    durabilite: 5
+    #LORE (quand on passe la souris)
+    lore: "\n§r§fDurabilité du stick speed : §6{durabilite}/{durabilite}"
+    #ID DE L'ITEM
+    id: "stick"
+    #COOLDOWN D'UTILISATION
+    cooldown: 10
+    effects:
+      #ID DE L'EFFET
+      1:
+        #NIVEAU DE L'EFFET
+        amplifier: 1
+        #TEMPS DE L'EFFET
+        time: 10
+
+  stick_de_force:
+    name: "Stick de Force"
+    id: "blaze_rod"
+    durabilite: 3
+    cooldown: 5
+    effects:
+      5:
+        amplifier: 1
+        time: 10
+
+cooldown-msg: "Vous devez attendre {SEC} secondes"
+item_break: "Votre stick s'est cassé"
+actived: "Vous avez bien activé le stick"
